@@ -1,0 +1,101 @@
+[
+  {
+    "category": "дом",
+    "name": "Комфорт 1",
+    "image": "products_images/product-1.jpg",
+    "short_desc": "комфортный стул",
+    "description": "подойдет для просмотра фильмов",
+    "price": "2989.5",
+    "quantity": "17"
+  },
+  {
+    "category": "дом",
+    "name": "Комфорт 2",
+    "image": "products_images/product-2.jpg",
+    "short_desc": "очень комфортный стул",
+    "description": "подойдет для общения с друзьями",
+    "price": "3687.2",
+    "quantity": "21"
+  },
+  {
+    "category": "дом",
+    "name": "люкс",
+    "image": "products_images/product-3.jpg",
+    "short_desc": "использованы премиальные материалы",
+    "description": "для тех, кто стремится к лучшему",
+    "price": "8157.99",
+    "quantity": "7"
+  },
+  {
+    "category": "офис",
+    "name": "стандарт",
+    "image": "products_images/product-4.jpg",
+    "short_desc": "очень комфортный стул",
+    "description": "подойдет для комфортной работы",
+    "price": "3254.4",
+    "quantity": "25"
+  },
+  {
+    "category": "офис",
+    "name": "Не стандарт",
+    "image": "products_images/product-5.jpg",
+    "short_desc": "очень классный стул",
+    "description": "подойдет для комфортной работы",
+    "price": "5486.4",
+    "quantity": "11"
+  },
+  {
+    "category": "модерн",
+    "name": "Модернизатор",
+    "image": "products_images/product-6.jpg",
+    "short_desc": "Не обычное решение",
+    "description": "подойдет для комфортной работы",
+    "price": "5220",
+    "quantity": "7"
+  },
+  {
+    "category": "модерн",
+    "name": "Лубимое",
+    "image": "products_images/product-7.jpg",
+    "short_desc": "Хорошее настроение",
+    "description": "подойдет для комфортной работы",
+    "price": "4272",
+    "quantity": "32"
+  },
+  {
+    "category": "модерн",
+    "name": "Отдых",
+    "image": "products_images/product-8.jpg",
+    "short_desc": "Восстановление",
+    "description": "подойдет для комфортной работы",
+    "price": "2700.4",
+    "quantity": "18"
+  },
+  {
+    "category": "офис",
+    "name": "комфортно",
+    "image": "products_images/product-9.jpg",
+    "short_desc": "Классное решение",
+    "description": "подойдет для комфортной работы",
+    "price": "4500",
+    "quantity": "16"
+  },
+  {
+    "category": "классика",
+    "name": "Классическая",
+    "image": "products_images/product-10.jpg",
+    "short_desc": "очень комфортный стул",
+    "description": "подойдет для комфортной работы",
+    "price": "6200",
+    "quantity": "5"
+  },
+  {
+    "category": "классика",
+    "name": "стандарт",
+    "image": "products_images/product-11.jpg",
+    "short_desc": "очень комфортный стул",
+    "description": "подойдет для комфортной работы",
+    "price": "4677",
+    "quantity": "32"
+  }
+]

@@ -1,0 +1,14 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+ =?utf-8?b?0J/QvtC00YLQstC10YDQttC00LXQvdC40LUg0YPRh9C10YLQvdC+0Lkg0LfQsNC/?=
+ =?utf-8?b?0LjRgdC4IDEyMzQ=?=
+From: django@geekshop.local
+To: pavel.dudkov@icloud.com
+Date: Wed, 22 May 2019 19:20:47 -0000
+Message-ID: <155855284779.10460.14729856497896423734@DESKTOP-DDORG5C>
+
+Для подтверждения учетной записи 1234                 на портале http://localhost:8000 перейдите по ссылке:                 
+http://localhost:8000/auth/verify/pavel.dudkov@icloud.com/0b3425a605e15e457d1f4dbb047e26a4022054e3/
+-------------------------------------------------------------------------------

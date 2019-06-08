@@ -1,0 +1,65 @@
+{% extends 'mainapp/base.html' %}
+{% load staticfiles %}
+{'title': title, 'links_menu': links_menu, 'category': category, 'products': products, 'basket': basket}
+
+{% block menu %}
+<div class="hero-white">
+    <div class="header clearfix">
+        <a href="/" class="logo"></a>
+        {% include 'mainapp/includes/inc_menu.html' %}
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="details">
+    <div class="links clearfix">
+        {% include 'mainapp/includes/inc_categories_menu.html' %}
+    </div>
+
+    <div class="products_list">
+        <div class="title clearfix">
+            <h2>Категория: "{{ category.name|title }}"</h2>
+            <div class="paginator">
+                {% if products.has_previous %}
+                    <a href="{% url 'products:page' category.pk products.previous_page_number %}">
+                      <<<
+                    </a>
+                {% endif %}
+                <span class="current">
+                      страница {{ products.number }} из
+                      {{ products.paginator.num_pages }}
+                </span>
+                {% if products.has_next %}
+                    <a href="{% url 'products:page' category.pk products.next_page_number %}">
+                      >>>
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="category-products clearfix">
+            <div class="tab-content">
+                {% for product in products %}
+                <div class="block">
+                    <a href="{% url 'products:product' product.pk %}"><img src="/media/{{ product.image }}"
+                                                                           alt="{{ product.short_desc }}"
+                                                                           class="img-product-list">
+                        <div class="text text-product-list">
+                            <img src="{% static 'img/icon-hover.png' %}" alt="img">
+                            <h3>Категория: {{ product.category.name }}</h3>
+                            <h4>Название: {{ product.name }}</h4>
+                            <p>Описание: {{ product.description }}</p>
+                            <p>Цена: {{ product.price }}</p>
+                            <p>На складе: {{ product.quantity }}</p>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="clr"></div>
+
+{% endblock %}

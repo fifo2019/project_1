@@ -1,0 +1,14 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+ =?utf-8?b?0J/QvtC00YLQstC10YDQttC00LXQvdC40LUg0YPRh9C10YLQvdC+0Lkg0LfQsNC/?=
+ =?utf-8?b?0LjRgdC4IHBldGE=?=
+From: django@geekshop.local
+To: 2123@mail.ru
+Date: Thu, 23 May 2019 15:05:54 -0000
+Message-ID: <155862395407.6668.6349655714096801521@DESKTOP-DDORG5C>
+
+Для подтверждения учетной записи peta                 на портале http://localhost:8000 перейдите по ссылке:                 
+http://localhost:8000/auth/verify/2123@mail.ru/be71a35eb6aa26313242311f5e6cb4e1d233f995/
+-------------------------------------------------------------------------------

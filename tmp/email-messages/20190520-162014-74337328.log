@@ -1,0 +1,14 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+ =?utf-8?b?0J/QvtC00YLQstC10YDQttC00LXQvdC40LUg0YPRh9C10YLQvdC+0Lkg0LfQsNC/?=
+ =?utf-8?b?0LjRgdC4IDEyMw==?=
+From: django@geekshop.local
+To: lilia2011@yourweb.email
+Date: Mon, 20 May 2019 12:20:14 -0000
+Message-ID: <155835481453.12344.6590943633525144111@DESKTOP-DDORG5C>
+
+Для подтверждения учетной записи 123                 на портале http://localhost:8000 перейдите по ссылке:                 
+http://localhost:8000/auth/verify/lilia2011@yourweb.email/af3cd043e4f605a19ba9c53f9bf6b8f4c1d8a13a/
+-------------------------------------------------------------------------------
